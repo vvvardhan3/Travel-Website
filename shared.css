@@ -52,6 +52,23 @@ header a:hover {
 
 }
 
+footer {
+  background: linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));
+  padding: 20px;
+}
 
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer img {
+  width: 60px;
+  height: 60px;
+}
 
 
