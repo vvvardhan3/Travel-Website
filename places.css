@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(30deg,rgb(77,77,77),rgb(58,58,58));
+}
+
+
+header {
+    position: static;
+}
+
+main ul {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0,0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+
+main li img {
+    width: 300px;
+    height: 250px;
+    object-fit:fill;
+}
+
+.item-content {
+    padding: 20px;
+}
+
+main h2 {
+    font-size:30px;
+    font-weight: 500;
+}
+
+main p {
+    height: 85px;
+    font-weight: 300;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(26, 212, 212);
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+main a:hover {
+    background-color: rgb(213, 239, 239);
+}
+
+.actions {
+    text-align: end;
+}
+
